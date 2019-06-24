@@ -1,11 +1,11 @@
 import React from 'react'
-import Dropdown from './DropdownTest';
+import TextInMiddleOfScreen from './TextInMiddleOfScreen'
 
 function App() {
   return (
     <div class='ui container'>
       <p>Hello Semantic</p>
-      <Dropdown />
+      <TextInMiddleOfScreen/>
     </div>
   );
 }
