@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dfd07ec-5a23-4f97-a528-c48f6785a59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/first/just_enough_clj.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/add_and_make.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/embedding_functions.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intro/just_enough_clj.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/intro/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first/just_enough_clj.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/first/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/intro/core_test.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +26,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/first/core.clj">
+        <entry file="file://$PROJECT_DIR$/src/I/add_and_make.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="-433">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/first/just_enough_clj.clj">
+        <entry file="file://$PROJECT_DIR$/src/I/embedding_functions.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -56,6 +66,13 @@
         <option value="$PROJECT_DIR$/main.clj" />
         <option value="$PROJECT_DIR$/src/first/just_enough_clojure.clj" />
         <option value="$PROJECT_DIR$/src/first/just_enough_clj.clj" />
+        <option value="$PROJECT_DIR$/src/first/core.clj" />
+        <option value="$PROJECT_DIR$/src/pre/core.clj" />
+        <option value="$PROJECT_DIR$/src/pre/just_enough_clj.clj" />
+        <option value="$PROJECT_DIR$/src/intro/core.clj" />
+        <option value="$PROJECT_DIR$/src/intro/just_enough_clj.clj" />
+        <option value="$PROJECT_DIR$/src/I/add_and_make.clj" />
+        <option value="$PROJECT_DIR$/src/I/embedding_functions.clj" />
       </list>
     </option>
   </component>
@@ -88,7 +105,7 @@
               <item name="first" type="b2602c69:ProjectViewProjectNode" />
               <item name="first" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="first" type="462c0819:PsiDirectoryNode" />
+              <item name="I" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -105,7 +122,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="ReplState" timestamp="1563990603780">{:repl-history {:ide [], :local [{:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;first.core&quot;} {:command &quot;(third '(1 2 3 4)) &quot;, :offset 18, :ns &quot;first.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1564424148067">{:repl-history {:ide [], :local [{:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;first.core&quot;} {:command &quot;(third '(1 2 3 4)) &quot;, :offset 18, :ns &quot;first.core&quot;} {:command &quot;(load-file \&quot;first-just-enough-clj\&quot;)&quot;, :offset 35, :ns &quot;first.core&quot;} {:command &quot;(load-file \&quot;just-enough-clj\&quot;)&quot;, :offset 29, :ns &quot;first.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -118,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.first.just-enough-clj">
+  <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -150,7 +167,7 @@
       <method v="2" />
     </configuration>
     <configuration name="learnclojure" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
-      <module name="first" />
+      <module name="book" />
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
       <setting name="jvmArgs" value="" />
@@ -160,21 +177,56 @@
       <setting name="aliases" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first.just-enough-clj" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="first" />
-      <setting name="path" value="$PROJECT_DIR$/src/first/just_enough_clj.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/first" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="book" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="book" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,15 +249,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Clojure REPL.learnclojure" />
-      <item itemvalue="Clojure Application.first.just-enough-clj" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Clojure Application.first.just-enough-clj" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -224,35 +267,35 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959514" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="REPL" side_tool="true" weight="0.32955465" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Leiningen" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="PlantUML" order="6" />
+      <window_info anchor="right" id="REPL" order="7" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Leiningen" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -265,15 +308,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/first/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/test/intro/core_test.clj">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/first/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
@@ -282,17 +318,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.clj">
+    <entry file="file://$PROJECT_DIR$/main.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="178">
+          <caret line="2744" column="5" selection-start-line="2744" selection-start-column="4" selection-end-line="2744" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/first/just_enough_clj.clj">
+    <entry file="file://$PROJECT_DIR$/book.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intro/just_enough_clj.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/I/add_and_make.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/I/embedding_functions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
         </state>
       </provider>
     </entry>

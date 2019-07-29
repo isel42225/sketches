@@ -1,4 +1,4 @@
-(ns first.core)
+(ns intro.core)
 
 (defn foo
   "I don't do a whole lot."
