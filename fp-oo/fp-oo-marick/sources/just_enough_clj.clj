@@ -1,5 +1,3 @@
-(ns intro.just-enough-clj)
-
 ;; Global Variables
 (def num-list '(1 2 3 4))
 (def letters-list '(A B A D B E R))

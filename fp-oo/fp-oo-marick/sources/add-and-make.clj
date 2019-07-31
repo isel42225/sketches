@@ -14,6 +14,19 @@
      (fn [this xinc yinc]
        (Point (+ (x this) xinc)
               (+ (y this) yinc))))
+(def add
+  (fn [p1 p2]
+    (Point (+ (x p1) (x p2))
+           (+ (y p1) (y p2)))))
+
+(def add-with-shift
+  (fn [this other]
+    (shift this (x other) (y other))))
+
+(def make
+  (fn [type & args]
+    (apply type args)))
+
 
 (def Triangle
      (fn [point1 point2 point3]
@@ -33,4 +46,10 @@
                                   (Point 0 10)
                                   (Point 10 0)))
 
+(def equal-triangle? =)
 
+(def valid-triangle?
+  (fn [p1 p2 p3]
+    (=
+      (count (distinct [p1 p2 p3]))
+      3 )))
