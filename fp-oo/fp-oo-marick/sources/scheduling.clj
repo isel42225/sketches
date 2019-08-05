@@ -21,7 +21,7 @@
             courses)))
 
 (def note-unavailability
-     (fn [courses instructor-count]
+     (fn [courses instructor-count manager?]
        (let [out-of-instructors?
              (= instructor-count
                 (count (filter (fn [course] (not (:empty? course)))
@@ -30,7 +30,8 @@
                 (assoc course
                        :unavailable? (or (:full? course)
                                          (and out-of-instructors?
-                                              (:empty? course)))))
+                                              (:empty? course))
+                                         (and manager? (not (:morning? course))))))
               courses))))
 
 (def annotate
