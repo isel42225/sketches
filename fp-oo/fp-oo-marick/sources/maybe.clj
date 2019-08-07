@@ -2,8 +2,8 @@
 
 (def decider
      (fn [value continuation]
-       (if (nil? value)
-         nil
+       (if (oopsie? value)
+          value
          (continuation value))))
 
 (def maybe-monad
