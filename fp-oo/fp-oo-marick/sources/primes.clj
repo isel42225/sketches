@@ -21,4 +21,4 @@
 (def primes
   (remove (fn [n]
             (not (nil? ((set nonprimes) n))))
-          (range 1 101)))
+          (range 2 101)))

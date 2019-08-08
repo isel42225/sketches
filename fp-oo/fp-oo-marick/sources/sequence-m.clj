@@ -2,7 +2,10 @@
 
 (def sequence-monad-decider
      (fn [step-value monadic-continuation]
-       (mapcat monadic-continuation step-value)))
+       (let [continuation (if (nil? step-value)
+                           nil
+                           monadic-continuation)]
+       (mapcat continuation step-value))))
 
 (def sequence-monad-monadifier list)
 
